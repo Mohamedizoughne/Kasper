@@ -63,7 +63,7 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(/images/landing.jpg);
+    background-image: url(images/landing.jpg);
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
     z-index: -5;
@@ -340,7 +340,7 @@ header li:last-child::before {
 /* --------------------------------------------------------------------------------- */
 /* -------------------------------Deisgn Section----------------------------- */
 .design {
-    background-image: url(/images/design-features.jpg);
+    background-image: url(images/design-features.jpg);
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -645,7 +645,7 @@ ul.filters li.active {
 .statistics {
     padding: 50px;
     position: relative;
-    background-image: url(/images/stats.png);
+    background-image: url(images/stats.png);
     background-size: cover;
     background-position: center;
 }
@@ -921,7 +921,7 @@ ul.filters li.active {
 .quote {
     position: relative;
     color: white;
-    background-image: url(/images/quote.jpg);
+    background-image: url(images/quote.jpg);
     text-align: center;
     height: 150px;
     background-size: cover;
@@ -1140,7 +1140,7 @@ tfoot a:hover {
 /* -------------------------------Email Section--------------------------- */
 .email-section {
     position: relative;
-    background-image: url(/images/subscribe.jpg);
+    background-image: url(images/subscribe.jpg);
     color: white;
 }
 
@@ -1302,7 +1302,7 @@ tfoot a:hover {
 /* -------------------------------Footer Section--------------------------- */
 footer {
     position: relative;
-    background-image: url(/images/subscribe.jpg);
+    background-image: url(images/subscribe.jpg);
     text-align: center;
     color: white;
     padding-block: 70px;
