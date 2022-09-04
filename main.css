@@ -610,9 +610,6 @@ ul.filters li.active {
 /* -------------About section----------------- */
 .about {
     overflow: hidden;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 .about .desktop-image {
@@ -629,15 +626,10 @@ ul.filters li.active {
 
 }
 
-.design-image img {
-    /* width: 100%; */
-}
-
 @media (max-width: 767px) {
-    .about .desktop-image {
-        /* display: none; */
+    .about {
+        padding-top: 30px;
     }
-
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -1172,11 +1164,12 @@ tfoot a:hover {
 .email-section form {
     position: relative;
     z-index: 5;
+    max-width: 100%;
 }
 
 .email-section [type='email'] {
     margin-right: 30px;
-    width: 350px;
+    flex: 1;
     padding: 20px 50px;
     border: 1px solid white;
     background-color: transparent;
